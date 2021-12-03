@@ -36,4 +36,4 @@ npm install -g nodemon # Package will be installedon Linux Server.
 /myworkspace/rest-api
 
 ```
-#![alt text](https://i.loli.net/2019/05/23/5ce5d73fb2f7323808.jpg)
+
