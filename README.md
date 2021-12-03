@@ -23,6 +23,17 @@ Deleteing entries..
  
  #Updating a package.
  npm update lodash
-#
+
+#Installing Modules globally..
+npm install -g nodemon # Package will be installedon Linux Server.
+
+#Global packages can be seen below..
+[root@mern-stack01 rest-api]# npm root -g
+/usr/lib/node_modules
+
+#List the installed Packages.
+[root@mern-stack01 rest-api]# npm list --depth 0
+/myworkspace/rest-api
+
 ```
-![alt text](https://i.loli.net/2019/05/23/5ce5d73fb2f7323808.jpg)
+#![alt text](https://i.loli.net/2019/05/23/5ce5d73fb2f7323808.jpg)
