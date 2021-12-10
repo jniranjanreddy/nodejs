@@ -1,5 +1,5 @@
-var superheroes = require("supervillains");
+import { random } from "supervillains";
 
-var mySuperheroName = superheroes.random();
+var mySuperheroName = random();
 
 console.log(mySuperheroName);
