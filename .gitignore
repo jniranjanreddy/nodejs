@@ -1,0 +1,5 @@
+#aws/cloud-watch-install/.terraform/
+#aws/elb/.terraform/
+#/aws/elb/terraform.tfstate
+#**/**/.terraform/
+**/node_modules/**
