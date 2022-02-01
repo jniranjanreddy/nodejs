@@ -1,5 +1,14 @@
 REPL - Read Evaluation Print Loops
 
+How to install nodeJS in ec2 instance
+1. Lauch ec2 instance
+2. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+3. . ~/.nvm/nvm.sh
+4. nvm install node
+
+Verify if installed or not
+node -e "console.log('Running Node.js ' + process.version)"
+
 NPM is by default installed with Node.js.
 NPM - node Package Manager
 
