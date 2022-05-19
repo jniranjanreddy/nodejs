@@ -10,6 +10,11 @@ Verify if installed or not
 node -e "console.log('Running Node.js ' + process.version)"
 
 ## Difference between npm i and npm ci
+| npm i | npm ci|
+|-------|-------|
+| It installs a package and all its dependencies. | It is generally used to install dependencies |
+| It may write to package.json or package-lock.json. | It never writes to package.json or package-lock.json.|
+|||
 ```
 npm i: The npm i (or npm install) is used to install all dependencies or devDependencies from a package.json file.
 npm ci: CI stands for continuous integration and npm ci is used to install all exact version dependencies or devDependencies from a package-lock.json file.
