@@ -9,7 +9,7 @@ How to install nodeJS in ec2 instance
 Verify if installed or not
 node -e "console.log('Running Node.js ' + process.version)"
 
-## Difference between node i and node ci
+## Difference between npm i and npm ci
 ```
 npm i: The npm i (or npm install) is used to install all dependencies or devDependencies from a package.json file.
 npm ci: CI stands for continuous integration and npm ci is used to install all exact version dependencies or devDependencies from a package-lock.json file.
