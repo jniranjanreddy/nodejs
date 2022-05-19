@@ -14,7 +14,14 @@ node -e "console.log('Running Node.js ' + process.version)"
 |-------|-------|
 | It installs a package and all its dependencies. | It is generally used to install dependencies |
 | It may write to package.json or package-lock.json. | It never writes to package.json or package-lock.json.|
-|||
+| Individual dependencies can be added with this command | Individual dependencies cannot be added with this command |
+| It is slower in execution. | It is faster in execution. |
+| If any dependency is not in package-lock.json, This command will add it. | If any dependencies are missing or have incompatible versions, then npm ci will throw an error. |
+| If a node_modules is already present, This Command doesn’t change anything to it. | If a node_modules is already present, it will be automatically removed before npm ci begins its install. |
+| It can install global packages.	 | It can not install global packages. |
+| The npm i package-name is used to write to package.json to add or update dependencies. | It can’t be used to write to package.json. |
+| npm i may write to package-lock.json to lock version of some dependencies | It can’t write to package-lock.json. |
+| Used during development after pulling changes that update the list of dependencies. | Used for the deterministic, repeatable build. |
 ```
 npm i: The npm i (or npm install) is used to install all dependencies or devDependencies from a package.json file.
 npm ci: CI stands for continuous integration and npm ci is used to install all exact version dependencies or devDependencies from a package-lock.json file.
