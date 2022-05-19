@@ -22,11 +22,6 @@ node -e "console.log('Running Node.js ' + process.version)"
 | The npm i package-name is used to write to package.json to add or update dependencies. | It can’t be used to write to package.json. |
 | npm i may write to package-lock.json to lock version of some dependencies | It can’t write to package-lock.json. |
 | Used during development after pulling changes that update the list of dependencies. | Used for the deterministic, repeatable build. |
-```
-npm i: The npm i (or npm install) is used to install all dependencies or devDependencies from a package.json file.
-npm ci: CI stands for continuous integration and npm ci is used to install all exact version dependencies or devDependencies from a package-lock.json file.
-```
-
 
 
 NPM is by default installed with Node.js.
