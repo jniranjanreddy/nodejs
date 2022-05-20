@@ -9,6 +9,9 @@ How to install nodeJS in ec2 instance
 Verify if installed or not
 node -e "console.log('Running Node.js ' + process.version)"
 
+npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
+
+
 ## Difference between npm i and npm ci
 | npm i | npm ci|
 |-------|-------|
