@@ -18,10 +18,55 @@ npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
 | Module Name | Purpose |
 |-------|-------|
 | Express | |
-|||
-|||
-|||
-|||
+| Gulp ||
+| Async ||
+| Moment ||
+| Lodash | |
+| Cheerio ||
+| Nodemailer||
+| Manipulate Images  ||
+| Process Images ||
+| ExpressJS | Server side framework ( MUST -> simply amazing) |
+| Socket.io  | websockets library for realtime communication (AWESOME!) |
+| Socketio - stream => for streaming binary data using Socket.IO |
+| Mysql | for connecting with mysql database |
+| Express-sessions | for session management ,it also provides persistent session management by allowing us to connect to Redis,MongoDB or Mysql Db |
+| Client-sessions | Session management (Better than express-session) |
+| Express-validator | for validation and sanitizing the input |
+| Jsonwebtoken | for signing and verifying jwt token (MUST) |
+| Bcryptjs | password hashing |
+| Nodemailer | for sending emails |
+| Body-parser | for parsing incoming json request body |
+| Socketio-jwt | to Authenticate Socket.IO incoming connections with JWT |
+| Socketio-auth |> for more secure auth |
+| graphql | core graphql module |
+| graphql-express | express graphql middleware/module |
+| Jade/pug | templating engine |
+| Helmet | security module, helps to prevent agains XSS , Clickjacking, sniffing and other threats |
+| Cors | for setting the cors properties |
+| Csurf | expressjs middleware => for protection against csrf attacks |
+| Morgan | for logging each incoming request to the console |
+| Serve-favicon | for serving the favicons to the user |
+| Multer --> makes working with files easier, especially file uploading |
+| Compression | for compressing http responses |
+| Dot-env | for storing environment variables in a file |
+| Nodemon -g | for automatic restarting of the server |
+| Forever -g | for ensuring the script runs continuously i.e forever |
+| Debug | small debugging utility |
+| Colors | for giving nice colors to the console output |
+| Boom | expressjs response headers module |
+| Optimist | process.argv working with make easier |
+| Prompt | easier to build cli apps with |
+| Colors | collourful console output |
+| Winston | makes logging easier |
+| Joi | to write validation rules for each and every endpoint of rest APIs to validate, sanitize, trim and convert everything that comes from the network to a set of predefined types. |
+| Faker | for populating mysql db with fake data |
+| Moment | makes working with dates/time easier |
+| Request | for making http requests |
+| Mongoose | ODM for MongoDB |
+| Sequelize | ORM for connecting to MYSQL, MongoDB etc. |
+
+
 
 
 
