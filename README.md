@@ -3,13 +3,13 @@
 # Some important resources
 1. https://github.com/john-smilga/node-express-course
 
-# How to install nodeJS in ec2 instance
+## How to install nodeJS in ec2 instance
 1. Lauch ec2 instance
 2. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 3. . ~/.nvm/nvm.sh
 4. nvm install node
 
-# Verify if installed or not
+## Verify if installed or not
 node -e "console.log('Running Node.js ' + process.version)"
 
 npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
