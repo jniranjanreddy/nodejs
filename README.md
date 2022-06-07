@@ -1,4 +1,7 @@
-REPL - Read Evaluation Print Loops
+## REPL - Read Evaluation Print Loops
+
+Some important resources
+1. https://github.com/john-smilga/node-express-course
 
 How to install nodeJS in ec2 instance
 1. Lauch ec2 instance
