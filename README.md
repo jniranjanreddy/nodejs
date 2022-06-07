@@ -17,7 +17,7 @@ npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
 ## Imortant Modules
 | Module Name | Purpose |
 |-------|-------|
-| Express | |
+| Express | Server side framework ( MUST -> simply amazing) |
 | Gulp ||
 | Async ||
 | Moment ||
@@ -26,7 +26,6 @@ npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
 | Nodemailer||
 | Manipulate Images  ||
 | Process Images ||
-| ExpressJS | Server side framework ( MUST -> simply amazing) |
 | Socket.io  | websockets library for realtime communication (AWESOME!) |
 | Socketio | for streaming binary data using Socket.IO |
 | Mysql | for connecting with mysql database |
