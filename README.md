@@ -28,7 +28,7 @@ npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
 | Process Images ||
 | ExpressJS | Server side framework ( MUST -> simply amazing) |
 | Socket.io  | websockets library for realtime communication (AWESOME!) |
-| Socketio - stream => for streaming binary data using Socket.IO |
+| Socketio | for streaming binary data using Socket.IO |
 | Mysql | for connecting with mysql database |
 | Express-sessions | for session management ,it also provides persistent session management by allowing us to connect to Redis,MongoDB or Mysql Db |
 | Client-sessions | Session management (Better than express-session) |
