@@ -18,6 +18,25 @@ npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
 | Module Name | Purpose |
 |-------|-------|
 | Express | Server side framework ( MUST -> simply amazing) |
+| app-rrot-path||
+| class-transformer||
+| class validator||
+| cookie parser||
+| date-fns||
+| delay||
+| json-logic-js||
+|nest winston||
+| passport||
+| passport-jwt||
+| pg||
+| pg-hstore||
+| reflect-metadata| |
+| rimraf | |
+| rxjs | |
+| sequelize | |
+| sequelize-typescript | |
+| winston| |
+| xstate | |
 | Gulp ||
 | Async ||
 | Moment ||
