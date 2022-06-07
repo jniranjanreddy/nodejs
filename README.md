@@ -15,8 +15,14 @@ node -e "console.log('Running Node.js ' + process.version)"
 npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
 
 ## Imortant Modules
-| Module Name | Purpose | More Details |
-|-------|-------|-------|-------------|
+| Module Name | Purpose |
+|-------|-------|
+| Express | |
+|||
+|||
+|||
+|||
+
 
 
 ## Difference between npm i and npm ci
