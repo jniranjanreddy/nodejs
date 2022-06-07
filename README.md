@@ -25,6 +25,7 @@ npm ci --registry=https://npms.nirulabs.com/repository/npm-group/
 | Cheerio ||
 | Nodemailer||
 | Manipulate Images  ||
+| Axios | |
 | Process Images ||
 | Socket.io  | websockets library for realtime communication (AWESOME!) |
 | Socketio | for streaming binary data using Socket.IO |
