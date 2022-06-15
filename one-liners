@@ -1,0 +1,4 @@
+
+root@dev-server01 ~ # node -p '"rama".split("").reverse().join("")'
+amar
+
