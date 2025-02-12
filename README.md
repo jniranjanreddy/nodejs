@@ -1,6 +1,7 @@
 ## REPL - Read Evaluation Print Loops
 ## if npm run build fails then try - export NODE_OPTIONS=--max_old_space_size=4096
 ## Debugging - https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+## Debugging - https://nodejs.org/en/docs/guides/debugging-getting-started/
 # Some important resources
 1. https://github.com/john-smilga/node-express-course
 
